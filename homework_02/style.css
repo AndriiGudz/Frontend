@@ -1,11 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     max-width: 1100px;
     margin-left: auto;
     margin-right: auto;
 }
 
+a:hover {
+    color: lightgrey;
+}
+
+.author {
+    font-size: 16px;
+    color: #2C5364;
+}
+
+.div-link {
+    padding: 10px;
+    text-align: right;
+}
+
 #panda {
-    border-radius: 10px;
+    border-radius: 50%;
     box-shadow: 5px 5px lightgray;
     display: block;
     margin-left: auto;
@@ -17,14 +35,26 @@ body {
 }
 
 .headline {
-    color: rgb(89, 19, 155);
+    color: #2C5364;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
 }
 
 .subheader {
+    width: 600px;
+    height: 250px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    box-shadow: 5px 5px lightgray;
+}
+
+.subtitle {
     text-align: justify;
-    text-decoration: underline;
     font-size: 21px;
-    color: rgb(108, 55, 156);
+    color: white;
 }
 
 .intro {
@@ -50,4 +80,20 @@ body {
 .footer-element {
     text-align: center;
     color: rgb(40, 150, 150);
+    cursor: pointer;
+}
+
+.footer {
+    height: 150px;
+    padding: 50px;
+
+}
+
+.background-box {
+    background: #0F2027;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }

@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    /* фиксирует размеры боксов, что бы падинги и бордер не влияли на его размер */
+}
+
+.red-box {
+    background-color: lightcoral;
+    /* margin-top: 30px; */
+    /* margin: 30px; */
+    /* margin: 10px 30px 40px 70px; */
+    margin: 15px 20px;
+    /* margin: 20px 70px; */
+}
+
+.green-box {
+    margin: 15px 20px;
+    background-color: lightgreen;
+    padding: 50px;
+    text-align: center;
+}
+
+.yellow-box {
+    background-color: rgb(235, 235, 138);
+    margin-left: 40px;
+    border: 30px dashed cyan;
+}
+
+.box {
+    height: 300px;
+    width: 300px;
+}
+
+.image-circle {
+    margin: 20px;
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    background-image: url('/branderb.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
