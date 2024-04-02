@@ -1,0 +1,51 @@
+/* * {
+    color: darkblue;
+} */
+
+header {
+    border-radius: 5;
+    border: 2px dashed black;
+}
+
+body {
+    margin: 20;
+}
+
+footer {
+    border: 1px solid darkgray;
+}
+
+#heading {
+    color: darkblue;
+}
+
+h1 {
+    color: blue;
+}
+
+h1 {
+    color: red;
+}
+
+.sectionFirst {
+    cursor: pointer;
+    font-style: italic;
+}
+
+.sectionSecond {
+    text-decoration: underline;
+}
+
+.bigText {
+    font-size: 40px;
+}
+
+.smallText {
+    font-size: 15px;
+}
+
+li {
+    color: darkgreen;
+    background-color: lightgray;
+}
+
