@@ -1,0 +1,23 @@
+.button {
+    border: none;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    font-size: 18px;
+    color: white;
+    font-weight: 300;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+
+.green {
+    background-color: #778D45;
+}
+
+.light-green {
+    background-color: #AEC09A;
+}
+
+a:hover {
+    color: black;
+}
