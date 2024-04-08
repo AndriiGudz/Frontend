@@ -33,6 +33,7 @@ main {
     position: relative;
     /* Чтобы позиционировать содержимое относительно блока main */
     flex: 1;
+    /* main будет занимать собой все пространство */
 }
 
 .nav-links {
@@ -113,6 +114,7 @@ footer {
     background-color: hsla(0, 0%, 0%, 0.4);
     padding-left: 10px;
     padding-right: 10px;
+    min-height: 100px;
 }
 
 .container-menu {
@@ -166,6 +168,11 @@ footer {
     /* background-color: lightgrey; */
     border: 1px solid grey;
     border-radius: 10px;
+    cursor: pointer;
+}
+
+.promo-video:hover {
+    box-shadow: 0 0 5px 0 white;
 }
 
 .promo-video>img {
@@ -203,4 +210,41 @@ footer {
     height: 100%;
     object-fit: cover;
     /* object-position: center; */
+}
+
+/* footer */
+.footerMenu {
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    margin: 20px 30px;
+}
+
+.footerContent {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+
+.footerContent>a {
+    color: grey;
+    text-decoration: none;
+}
+
+.footerContent>a:hover {
+    text-decoration: underline;
+}
+
+.social {
+    display: flex;
+    gap: 15px;
+    margin-left: 30px;
+}
+
+.whiteImg {
+    cursor: pointer;
+}
+
+.copy {
+    margin-top: 10px;
 }
