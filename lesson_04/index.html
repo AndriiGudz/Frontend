@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>FlexBox</title>
+</head>
+
+<body>
+    <h1>Flexbox</h1>
+    <h3>Гибкий технология позиционирования элементов в CSS</h3>
+    <ul>
+        <li>Чтобы включить отображение flex в контейнере нужно задать свойство для родителя.</li>
+        <li>justify-content: - задает правила на главной оси</li>
+        <li>align-items: - задает правила на поперечной оси</li>
+        <li>Align-self - вы можете применить к элементу ребенку, чтобы изменить его положение по поперечной оси.</li>
+    </ul>
+    <div class="container">
+        <div class="item1">1</div>
+        <div class="item2">2</div>
+        <div class="item3">3</div>
+        <div class="item4">4</div>
+    </div>
+    <ul>
+        <li>Свойство flex-wrap: wrap; - переносит элементы в контейнере на новую строку, если они не помещаются</li>
+        <li>Если при переносе элементов через flex-wrap: wrap; мы хотим изменить положение всех элементов вместе по поперечной оси - мы используем align-content: center;</li>
+    </ul>
+    <div class="container2">
+        <div class="container2_items">1</div>
+        <div class="container2_items">2</div>
+        <div class="container2_items">3</div>
+        <div class="container2_items">4</div>
+        <div class="container2_items">5</div>
+        <div class="container2_items">6</div>
+        <div class="container2_items">7</div>
+        <div class="container2_items">8</div>
+        <div class="container2_items">9</div>
+        <div class="container2_items">10</div>
+    </div>
+    <div class="card">
+        <h3>Dr. Oetker Ristorante Pizza Mozzarella 355g</h3>
+        <p>Pizza reich belegt mit Tomaten, Mozzarella und 5,4% Kräuter-Pestosauce auf knusprig dünnem Boden, tiefgefroren. 2,5% Olivenöl nativ extra.</p>
+        <img src="pizza.webp" alt="">
+        <a href="#">More Pizzas</a>
+    </div>
+</body>
+
+</html>

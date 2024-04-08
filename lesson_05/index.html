@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Position CSS</title>
+</head>
+
+<body>
+<header class="header">
+    <h1>CSS position</h1>
+</header>
+
+<!-- <div class="initial"></div> -->
+<main class="main">
+
+    <div class="square violet"></div>
+    <div class="bigRedsquare">
+        <div class="square sand"></div>
+    </div>
+    <ul>
+        <li><span>Position: fixed</span> - вырывает элемент из потока и делает его невидимым для остальных элементов.</li>
+        <li><span>Position: sticky</span> - приклеивает элемент к месту, сохраняя за собой место, после выравнивания из потока (идеально для header). Чтобы stycky сработал - нужно не забыть задать значение по одной из осей.</li>
+        <li><span>Position: absolute</span> - двигает элемент по осям относительно body (по умолчанию) или первого спозиционированного родителя.</li>
+        <li><span>Position: relative</span> - не вырывает элемент из потока, что идеально подходит для позиционирования родителя для absolute - теперь не придется двигать элемент относительно body.</li>
+        <li><span>Absolute</span> - указываем для ребенка, элемента который будем двигать.</li>
+        <li><span>Relativ</span> - для элемента родителя, чтобы двигать ребенка относительно него.</li>
+    </ul>
+</main>
+<footer class="footer"></footer>
+</body>
+
+</html>
