@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header__row-portalbrand {
+    width: 100%;
+    height: 44px;
+    border-bottom: 1px solid #DDDDDD;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    margin-left: 24px;
+}
+
+.header__row-pageheader {
+    /* Header */
+    width: 100%;
+    padding: 16px 24px;
+    background-color: white;
+    /* position:sticky;
+    top: 0; */
+    z-index: 5;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logoText {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    text-decoration: none;
+}
+
+.institution {
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+
+}
+
+.title {
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+
+}
+
+.link-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pageheader__quicklinks {
+    margin-right: 30px;
+}
+
+.pageheader__quicklinks ul li {
+    display: inline-block;
+    /* Выравниваем элементы списка в строку */
+    margin-left: 40px;
+    font-family: Arial;
+    font-size: 17.6px;
+    font-weight: 400;
+    line-height: 26.4px;
+    text-align: left;
+
+}
+
+.pageheader__quicklinks ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.iconMenu {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+}
+
+.serviceButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.icon {
+    font-size: 32px;
+}
+
+.service-text {
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 12.65px;
+    text-align: center;
+
+}
