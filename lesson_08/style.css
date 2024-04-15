@@ -10,6 +10,7 @@
     border-bottom: 1px solid #DDDDDD;
     display: flex;
     align-items: center;
+    /* display: block; */
 }
 
 .logo {
@@ -22,7 +23,7 @@
     width: 100%;
     padding: 16px 24px;
     background-color: white;
-    /* position:sticky;
+    /* position: fixed;
     top: 0; */
     z-index: 5;
 }
