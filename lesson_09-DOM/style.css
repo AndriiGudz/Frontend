@@ -1,0 +1,31 @@
+.box {
+    margin: 15px;
+    height: 100px;
+    width: 100px;
+    background-color: cyan;
+}
+
+.btn1 {
+    background-color: #d56aa0;
+}
+
+.btn2 {
+    background-color: #bbdbb4;
+}
+
+.btn3 {
+    background-color: #fcf0cc;
+}
+
+.new-paragraph {
+    color: blue;
+    font-size: large;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.new-paragraph:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: #d56aa0;
+}

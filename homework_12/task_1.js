@@ -9,10 +9,10 @@ const getElementByIndex = (arr, index) => {
     // Проверяем, существует ли элемент массива под заданным индексом
     if (index >= 0 && index < arr.length) {
         // Если существует, возвращаем элемент массива
-        return arr[index];
+        return arr[index]
     } else {
         // Если такого индекса нет, выводим сообщение в консоль
-        console.log("No such index in array");
+        console.log("No such index in array")
     }
 }
 const myArray = [12, 14, 3, 6, 8, 9]
