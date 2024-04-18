@@ -51,3 +51,17 @@ console.log('Задание 6: ', newArray1);
 // Образец:
 // 'Anakin Skywalker is a Jedi. Age: 25' 'Han Solo is not a Jedi. Age: 35'
 
+// Вариант 1
+const message = (starWarsHeroes) => {
+    for (let hero of starWarsHeroes) {
+        let jedi = hero.isJedi ? 'is a jedi' : 'is not a jedi'
+        console.log(`${hero.name} ${jedi}. Age: ${hero.age}`)
+    }
+}
+message(starWarsHeroes)
+
+// Вариант 2
+starWarsHeroes.forEach(hero => {
+    const person = hero.isJedi ? 'is a jedi' : 'is not a jedi'
+    console.log(`${hero.name} ${person}. Age: ${hero.age}`)
+})
