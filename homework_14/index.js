@@ -16,11 +16,11 @@ console.log('Задание 1: ', starWarsHeroes.filter(el => el.age % 10 === 5)
 // Задание 1.2
 // Создайте новый массив с джедаями младше 40 лет
 
-console.log('Задание 2: ', starWarsHeroes.filter(el => el.age <= 40))
+console.log('Задание 2: ', starWarsHeroes.filter(el => el.age <= 40  && el.isJedi))
 
 // Задание 1.3
 // Посчитайте возраст всех джедаев
-const ages = starWarsHeroes.map(el => el.age)
+const ages = starWarsHeroes.map(el => el.isJedi && el.age)
 console.log('Задание 3: ', ages.reduce((acc, curent) => acc + curent, 0))
 
 // Задание 1.4
