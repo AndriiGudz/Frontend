@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Death list 🥷</h1>
+    <!-- интерактивная форма с указанием id -->
+    <!-- Форма отправляет данные из инпутов и делает перезагрузку -->
+    <form id="form">
+        <!-- placeholder="nickname" - заглушка на форме, текст который отображается на форме -->
+        <input type="text" placeholder="nickname" name="nickname" required>
+        <input type="text" placeholder="location" name="location" required>
+        <!-- кнопке в форме не нужен id, если указать тип submit -->
+        <!-- важно чтобы кнопка лежала внутри формы -->
+        <button type="submit">Add person</button>
+    </form>
+    <div class="btn-container">
+        <button type="button" id="clear">Clear list</button>
+    </div>
+    <ul id="person-list"></ul>
+</body>
+</html>

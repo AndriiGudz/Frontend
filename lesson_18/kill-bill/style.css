@@ -1,0 +1,16 @@
+li {
+    /* убираем точку у элемента li */
+    list-style: none;
+    cursor: pointer;
+}
+
+li:hover {
+    /* убираем точку у элемента li */
+    list-style: none;
+    cursor: pointer;
+    color: red;
+}
+
+.btn-container {
+    margin-top: 10px;
+}
