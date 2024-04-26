@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+h1 {
+    color: brown;
+    text-align: center;
+}
+
+span {
+    margin: auto;
+    text-align: center;
+    max-width: 500px;
+}
+
+.api-content {
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 32px;
+}
+
+.jokeElement {
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.btn-new {
+    margin: auto;
+    max-width: 150px;
+}
