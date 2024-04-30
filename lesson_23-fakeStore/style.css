@@ -1,0 +1,46 @@
+.cardImage {
+  width: 80%;
+  height: auto;
+}
+
+.itemCard {
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+p {
+    font-size: 10px;
+}
+
+.loader {
+  width: 48px;
+  height: 48px;
+  border: 5px solid #fff;
+  border-bottom-color: #ff3d00;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 0.7s linear infinite;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.productList {
+    display: grid;
+    gap: 10px;
+    padding: 0px 100px 0px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-auto-rows: 500px;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
