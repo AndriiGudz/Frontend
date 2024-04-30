@@ -1,0 +1,17 @@
+[
+    {
+        "brand": "mercedes",
+        "model": "cls",
+        "color": "blue",
+        "age": "2024",
+        "image": "https://thumbor.forbes.com/thumbor/fit-in/960x600/https://www.forbes.com/wheels/wp-content/uploads/2022/09/2023_Mercedes_CLS_Gallery1.jpg"
+    },
+    {
+        "brand": "bmw",
+        "model": "i4",
+        "color": "red",
+        "age": "2024",
+        "image": "https://www.racv.com.au/content/dam/racv/images/content-hub/transport/cars/bmw/2022-i4/1600x600-BMWi4-M50-75.jpg.transform/heroDesktop/image.jpg"
+    }
+
+]
