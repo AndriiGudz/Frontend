@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  position: relative;
+  min-width: 300px;
+  min-height: 200px;
+  padding: 20px;
+  margin: 100px 10px 100px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.card > h1 {
+    text-align: center;
+}
+
+.weatherInfoElement {
+  margin: 10px 0px 10px;
+}
+
+.weatherDesc {
+  margin: 10px 0px 10px;
+}
+
+/* HTML: <div class="loader"></div> */
+/* .loader {
+  display: none;
+  --d: 22px;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  color: #25b09b;
+  box-shadow: calc(1 * var(--d)) calc(0 * var(--d)) 0 0,
+    calc(0.707 * var(--d)) calc(0.707 * var(--d)) 0 1px,
+    calc(0 * var(--d)) calc(1 * var(--d)) 0 2px,
+    calc(-0.707 * var(--d)) calc(0.707 * var(--d)) 0 3px,
+    calc(-1 * var(--d)) calc(0 * var(--d)) 0 4px,
+    calc(-0.707 * var(--d)) calc(-0.707 * var(--d)) 0 5px,
+    calc(0 * var(--d)) calc(-1 * var(--d)) 0 6px;
+  animation: l27 1s infinite steps(8);
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -2px;
+  margin-left: -2px;
+}
+@keyframes l27 {
+  100% {
+    transform: rotate(1turn);
+  }
+} */
+
+
+.loader {
+    display: block;
+    --d: 22px;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    color: #25b09b;
+    box-shadow: 
+      calc(1 * var(--d)) calc(0 * var(--d)) 0 0 #ebb92e,
+      calc(0.707 * var(--d)) calc(0.707 * var(--d)) 0 1px #35c4e8,
+      calc(0 * var(--d)) calc(1 * var(--d)) 0 2px #f16d7a;
+    animation: l27 1s infinite steps(8);
+  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -2px;
+    margin-left: -2px;
+  }
+  
+  @keyframes l27 {
+    100% {
+      transform: rotate(1turn);
+    }
+  }
+  
