@@ -17,9 +17,9 @@ fetch('https://get.geojs.io/v1/ip/geo.json')
         // infoElement.textContent = `Широта: ${latitude}, Долгота: ${longitude}`;
 
         const cityElemant = document.createElement('div')
-        cityElemant.textContent =`Город: ${city}`
+        cityElemant.innerHTML =`<strong>Город:</strong> ${city}`
         const countryElemant = document.createElement('div')
-        countryElemant.textContent =`Страна: ${country}`
+        countryElemant.innerHTML =`<strong>Страна:</strong> ${country}`
 
         contentApi.appendChild(infoElement);
         contentApi.appendChild(countryElemant);
@@ -37,6 +37,7 @@ fetch('https://get.geojs.io/v1/ip/geo.json')
                     
                     // отключаем loader после загрузки данных
                     loader.style.display = 'none'
+                    contentApi.style.display = 'block'
                     
                     // Обработка данных о погоде
                     const temperature = weatherData.current_weather.temperature;

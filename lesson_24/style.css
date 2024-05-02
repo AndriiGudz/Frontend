@@ -28,6 +28,12 @@ body {
 
 .weatherDesc {
   margin: 10px 0px 10px;
+  color: darkmagenta;
+  font-style: italic;
+}
+
+.conten-api {
+    display: none;
 }
 
 /* HTML: <div class="loader"></div> */
