@@ -4,14 +4,51 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <script defer src="script.js"></script>
-    <title>Weather app</title>
+    <link rel="stylesheet" href="style-home.css" />
+    <script defer src="script-home.js"></script>
+    <script
+      src="https://kit.fontawesome.com/228c6a2c84.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Погода в твоем городе</title>
   </head>
   <body>
+    <header id="header" class="header">
+      <ul id="links" class="links">
+        <li><i class="fa-solid fa-sun fa-2xl"></i></li>
+        <li><a href="index.html">Погода в твоем городе</a></li>
+        <li><a href="cities.html">Погода в Европейских столицах</a></li>
+        <li><a href="choose-city.html">Выбери город из списка</a></li>
+      </ul>
+    </header>
+    <header id="headerMob" class="headerMob">
+      <div class="log">
+        <i class="fa-solid fa-sun fa-2xl"></i>
+      </div>
+      <div class="menu">
+          <!-- <button class="dropbtn"> -->
+            <i id="myDropdown" class="fa-solid fa-bars fa-xl"></i>
+          <div class="dropdown-content">
+            <a href="index.html">Погода в твоем городе</a>
+            <a href="cities.html">Погода в Европейских столицах</a>
+            <a href="choose-city.html">Выбери город из списка</a>
+          </div>
+        <!-- </button> -->
+      </div>
+    </header>
+    <main id="main" class="main">
       <div id="card" class="card">
         <div id="loader" class="loader"></div>
-        <h1>Погода 🌈</h1>
-      <div id="content-api" class="conten-api"></div>
-    </div>
+        <div id="cardContent" class="cardContent">
+          <h1>🌈 Погода в твоем городе</h1>
+          <div id="content-api" class="conten-api"></div>
+        </div>
+      </div>
+    </main>
+    <footer id="footer" class="footer">
+      <i class="fa-solid fa-bolt"></i>
+      <p>&copy; Gudz Andrii</p>
+      <i class="fa-solid fa-bolt"></i>
+    </footer>
   </body>
 </html>

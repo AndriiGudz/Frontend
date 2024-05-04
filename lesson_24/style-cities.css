@@ -1,0 +1,36 @@
+.main {
+    margin-top: 100px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    margin: 10px;
+    padding: 10px;
+    /* border: 1px solid coral; */
+    border-radius: 15px;
+    background-color: white;
+    /* box-shadow: 1px 1px 10px rgb(206, 205, 205); */
+}
+
+.info-card h2 {
+    margin-bottom: 10px;
+}
+
+.cityDescription {
+    text-align: justify;
+}
+
+.imgStyle {
+    width: 200px;
+    padding: 5px;
+    margin: auto;
+    border-radius: 15px;
+}

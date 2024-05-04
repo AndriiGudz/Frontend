@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style-form.css" />
+    <script defer src="script-form.js"></script>
+    <script src="https://kit.fontawesome.com/228c6a2c84.js" crossorigin="anonymous"></script>
+    <title>Выбери город из списка</title>
+  </head>
+  <body>
+    <header id="header" class="header">
+      <ul id="links" class="links">
+        <li><i class="fa-solid fa-sun fa-2xl"></i></li>
+        <li><a href="index.html">Погода в твоем городе</a></li>
+        <li><a href="cities.html">Погода в Европейских столицах</a></li>
+        <li><a href="choose-city.html">Выбери город из списка</a></li>
+      </ul>
+    </header>
+    <header id="headerMob" class="headerMob">
+        <div class="log">
+          <i class="fa-solid fa-sun fa-2xl"></i>
+        </div>
+        <div class="menu">
+            <!-- <button class="dropbtn"> -->
+              <i id="myDropdown" class="fa-solid fa-bars fa-xl"></i>
+            <div class="dropdown-content">
+              <a href="index.html">Погода в твоем городе</a>
+              <a href="cities.html">Погода в Европейских столицах</a>
+              <a href="choose-city.html">Выбери город из списка</a>
+            </div>
+          <!-- </button> -->
+        </div>
+      </header>
+    <main id="main" class="main">
+      <div id="card" class="card">
+        <div id="loader" class="loader"></div>
+        <form id="cityForm" class="cityForm">
+          <select id="citySelect" class="citySelect">
+            <option value="">Select a city</option>
+            <option value="51.5074,-0.1278,London">London</option>
+            <option value="48.8566,2.3522,Paris">Paris</option>
+            <option value="52.52,13.405,Berlin">Berlin</option>
+            <option value="40.4168,-3.7038,Madrid">Madrid</option>
+            <option value="41.9028,12.4964,Rome">Rome</option>
+            <option value="37.9838,23.7275,Athens">Athens</option>
+            <option value="52.3676,4.9041,Amsterdam">Amsterdam</option>
+            <option value="48.2082,16.3738,Vienna">Vienna</option>
+          </select>
+          <button type="submit" class="btn-form">Get Weather</button>
+          <div id="content-api" class="conten-api"></div>
+        </form>
+      </div>
+    </main>
+    <footer id="footer" class="footer">
+        <i class="fa-solid fa-bolt"></i>
+        <p> &copy; Gudz Andrii </p>
+        <i class="fa-solid fa-bolt"></i>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+.card {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    min-width: 300px;
+    min-height: 200px;
+    padding: 20px;
+    margin: 200px 10px 100px;
+    border-radius: 15px;
+    background-color: white;
+
+  }
+
+.cityForm {
+    margin-top: 10px;
+}
+
+.btn-form {
+    margin-left: 20px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #2C5364;
+    color: white;
+    cursor: pointer;
+}
+
+.citySelect {
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.weatherInfoElement {
+    margin-top: 40px;
+}
+

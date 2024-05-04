@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style-cities.css" />
+    <script defer src="script-cities.js"></script>
+    <script src="https://kit.fontawesome.com/228c6a2c84.js" crossorigin="anonymous"></script>
+    <title>Погода в Европейских столицах</title>
+  </head>
+  <body>
+    <header id="header" class="header">
+      <ul id="links" class="links">
+        <li><i class="fa-solid fa-sun fa-2xl"></i></li>
+        <li><a href="index.html">Погода в твоем городе</a></li>
+        <li><a href="cities.html">Погода в Европейских столицах</a></li>
+        <li><a href="choose-city.html">Выбери город из списка</a></li>
+      </ul>
+    </header>
+    <header id="headerMob" class="headerMob">
+        <div class="log">
+          <i class="fa-solid fa-sun fa-2xl"></i>
+        </div>
+        <div class="menu">
+            <!-- <button class="dropbtn"> -->
+              <i id="myDropdown" class="fa-solid fa-bars fa-xl"></i>
+            <div class="dropdown-content">
+              <a href="index.html">Погода в твоем городе</a>
+              <a href="cities.html">Погода в Европейских столицах</a>
+              <a href="choose-city.html">Выбери город из списка</a>
+            </div>
+          <!-- </button> -->
+        </div>
+      </header>
+    <main id="main" class="main">
+      <div id="loader" class="loader"></div>
+      <div id="conten-api" class="content-api"></div>
+    </main>
+    <footer id="footer" class="footer">
+        <i class="fa-solid fa-bolt"></i>
+        <p> &copy; Gudz Andrii </p>
+        <i class="fa-solid fa-bolt"></i>
+    </footer>
+  </body>
+</html>

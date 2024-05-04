@@ -1,5 +1,15 @@
 const contentApi = document.querySelector('#content-api')
 const loader = document.querySelector('#loader')
+const cardContent = document.querySelector('#cardContent')
+
+function toggleDropdown() {
+    var menu = document.getElementById("myDropdown");
+    if (menu.style.display === "none") {
+      menu.style.display = "block";
+    } else {
+      menu.style.display = "none";
+    }
+  }
 
 fetch('https://get.geojs.io/v1/ip/geo.json')
     .then(response => response.json())
@@ -37,6 +47,7 @@ fetch('https://get.geojs.io/v1/ip/geo.json')
                     
                     // отключаем loader после загрузки данных
                     loader.style.display = 'none'
+                    cardContent.style.display = 'block'
                     contentApi.style.display = 'block'
                     
                     // Обработка данных о погоде
