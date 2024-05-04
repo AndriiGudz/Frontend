@@ -6,6 +6,9 @@ const cityForm = document.getElementById('cityForm')
 
 cityForm.addEventListener('submit', function (event) {
     event.preventDefault() // Предотвращаем отправку формы
+
+    // Очищаем содержимое contentApi
+    contentApi.innerHTML = '';
     
     // включаем loader до fetch запроса
     loader.style.display = 'block'    
